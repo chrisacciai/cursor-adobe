@@ -52,15 +52,15 @@ export function Dashboard() {
         <StatsCard
           label="Avg. Open Rate"
           value={loading ? '—' : `${stats.avgOpenRate}%`}
-          subtitle="vs 28% benchmark"
-          trend="up"
+          subtitle={loading ? undefined : 'vs 28% benchmark'}
+          trend={loading ? undefined : 'up'}
           icon="📈"
         />
         <StatsCard
           label="Avg. Click Rate"
           value={loading ? '—' : `${stats.avgClickRate}%`}
-          subtitle="vs 5% benchmark"
-          trend="up"
+          subtitle={loading ? undefined : 'vs 5% benchmark'}
+          trend={loading ? undefined : 'up'}
           icon="👆"
         />
       </div>
