@@ -1,0 +1,12 @@
+---
+description: Adobe-style patterns for campaign UI
+globs: "**/*.tsx"
+alwaysApply: false
+---
+
+# React Component Patterns
+
+- Use functional components with hooks
+- Prefer existing design system components (Button, Card) from `components/design-system`
+- Use the `useDeliveryStatus` hook for campaign delivery data
+- Follow the same styling patterns as other dashboard cards
