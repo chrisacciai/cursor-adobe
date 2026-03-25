@@ -1,0 +1,12 @@
+{
+  "observedLoadingWithDashes": true,
+  "subtitlesHidden": true,
+  "snapshot": {
+    "openValue": "—",
+    "clickValue": "—",
+    "openSubtitleCount": 0,
+    "clickSubtitleCount": 0,
+    "iteration": 0
+  },
+  "videoPath": "/workspace/demo-app/artifacts/chr-16-loading-verification.webm"
+}
